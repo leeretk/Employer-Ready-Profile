@@ -89,4 +89,3 @@ database.ref().on("child_added", function(childSnapshot){
  $("#contact-table > tbody").append(newRow);
 
 });
-
