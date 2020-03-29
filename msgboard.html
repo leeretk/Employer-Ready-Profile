@@ -2,44 +2,70 @@
 
 <html>
 
-<section class="row">
+<head>
+  <html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="assets\css\style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="./assets/js/contacts.js"></script>
+  <title>Message Board</title>
+</head>
+
+
+<div class="container-fluid">
+  <div class="row">
     <!--image-->
     <div class="col-lg-6">
-      <img class="view overlay z-depth-1-hal" src="./assets/images/ValleyOfTheSun.jpg" alt="alaska">
+      <div>
+        <img class=portfolioImages src="./assets/images/ValleyOfTheSun.jpg" alt="mountains">
+      </div>
     </div>
 
     <!--contact form -->
-
     <div class="col-lg-6 container">
       <h2>Contact</h2>
-        <div class="input-group">
-          <form class="card">
-        <div class="input-group">
-          <!--name-input-->
-          <div class="input-group-prepend">name-input
-            <input type="text" class="form-control">
-          </div>
-          <!--email-input-->
-          <div class="input-group">email-input
-            <input type="text" class="form-control">
-          </div>
-          <!--message-input mb-3-->
+      <div class="input-group">
+        <form class="card">
+          <div class="input-group">
+            <!--name-input-->
+            <div class="input-group-prepend">name-input
+              <input type="text" class="form-control">
+            </div>
+            <!--email-input-->
+            <div class="input-group">email-input
+              <input type="text" class="form-control">
+            </div>
+            <!--message-input mb-3-->
             <div class="input-group">
               <span class="input-group-text" id="message-input">message-input</span>
-            <input type="text" class="form-control" aria-label="Sizing example input"
-              aria-describedby="inputGroup-sizing-default">
-          </div>
-          <!--date-input-->
+              <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default">
+            </div>
+            <!--date-input-->
             <div class="input-group">date-input
-            <input type="text" class="form-control">
+              <input type="text" class="form-control">
+            </div>
+            <!--button-->
+            <div class="text-center">
+              <button type="button" class="btn btn-secondary  btn-lg" type="submit" id="add-new-contact"> Submit
+              </Button>
+            </div>
           </div>
-          <!--button-->
-          <div class="text-center">
-            <button type="button" class="btn btn-secondary  btn-lg" type="submit" id="add-new-contact"> Submit </Button>
-          </div>
-        </div>
       </div>
-    </form>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
   </section>
   <!--end contact form-->
 
@@ -90,6 +116,6 @@
           <footer class="fixed-bottom"> Copyright &copy; </footer>
 
 
-</body>
+          </body>
 
 </html>
