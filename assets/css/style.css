@@ -28,9 +28,7 @@ label {
     text-align: right;
     }
 
-html {
-    background-color: #bcaaa4 ;
-}
+
 
 tbody tr th td{
     width: 800px;
@@ -43,6 +41,11 @@ tbody tr th td{
     padding: 10px;
     text-align: left;
     font-weight: bolder;
+}
+
+.card-header {
+    color: #004d40;
+    background-color:  white;
 }
 
 .nav-link {
