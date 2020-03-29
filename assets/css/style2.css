@@ -1,0 +1,228 @@
+/** * Homework biography * **/
+
+
+/** * CONTAINERS * **/
+
+.pageContainer {
+    object-position: center;
+}
+
+.containerHeader {
+    background: #ffffff;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-bottom: 2px solid lightgray;
+    padding: 20px;
+    position: relative;
+    }
+
+.container {
+    border-style: solid;
+    border-width: 2px;
+    border-color:lightgray ;
+    padding: 30px;
+    width: 960px;
+        }
+
+.divNameHeader {
+    margin-left: 10px;
+    float:left;
+    text-align: center;
+    padding: 10px;
+    width; 40%
+        }
+
+.divHyperlinks {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    float:right;
+    width: 40%;
+    align-content: center;
+    color: #777777;
+      }
+
+.containerFooter {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-bottom: 2px solid lightgray;
+    padding: 20px;
+    }
+
+/** * HEADER NAVIGATION * **/
+
+nav {
+    margin: 10px;
+}
+
+nav ul {
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+    width: 100%
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a { text-decoration: none;
+    padding: 5px;
+    color: #777777
+    }
+
+/** * HEADING 1 - GREEN BOX - KAMY LEERET * **/
+
+h1 {
+    padding: 30px ;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+      }
+
+/** * HEADING 2 - ABOUT ME * **/      
+
+h2 {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+/** * BODY * **/    
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:200%;
+    color: #777777;
+    background: #efeee7;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    object-position: center;
+  }
+        
+.bio-image {
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin-right: 20px;
+  }
+
+.main-bio { 
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+      }
+
+footer {
+    margin-top: 400px; 
+    padding: 20px;
+    font-size: 16px;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: solid;
+    border-width: 40px;
+    border-color: #4aaaa5;
+    background-color: #666666;
+}
+
+/** * PORTFOLIO * **/    
+
+/** * PORTFOLIO CONTAINERS * **/   
+
+
+/*    border-style: solid;
+    border-width: 1px;*/
+
+.portfolioImages {
+    width: 200px;
+    height: 200px;
+  }
+
+.portfolioContainer {
+    object-position: center;
+    padding: 30px;
+    border-color:lightgray ;
+    width: 960px;
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    flex-wrap: wrap;
+            }
+
+.boxPicturesContainer {  
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+.centered {
+    position: relative;
+    bottom: 70px;
+    width: 100%;
+  }
+
+h3 {background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+          }
+
+.column { 
+    float: left;
+    width: 50%;
+    padding: 10px;
+    column-count: 2;
+}   
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* clear floats after the columns*/
+
+.row { 
+    display: flex;
+}
+
+/** * CONTACT * **/    
+
+/** * CONTACT FORM * **/   
+
+form {width: 80%;}
+
+input:focus, 
+textarea:focus { 
+       width: 100%; font-size: 16px;}
+
+button { 
+    width: 100px; 
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover { background-color: darkgrey;}
+
+

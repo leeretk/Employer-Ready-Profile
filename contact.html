@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="assets\css\style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="./assets/js/contacts.js"></script>
+  <title>Kamy Leeret</title>
+</head>
+
+<br>
+
+<!--bio heading -->
+<section>
+  <header class="card container">
+    <h1 class="card-header"> Kamy Leeret
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">About Me
+                <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--end Navbar-->
+    </h1>
+  </header>
+</section>
+<!--end heading -->
+<br>
+<br>
+<!--contact form-->
+<section class="container card sticky-top">
+  <h2>Contact</h2>
+  <div class="input-group mb-3">
+    <form class="card" action="action_page.php">
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+
+      
+
+        <div class="col-6">Name:<div> <input type="text"></div></div>
+        <div class="col-6">Email: <div><input type="email"></div></div>
+        <div class="col-6">Message:<div><input type="text"></div></div>
+    </form>    
+    <br>
+    <button type="button" class="btn btn-secondary  btn-lg" type="submit" id="add-new-contact"> Submit </Button>
+    </div>
+</section> <!--end contact form-->
+<br>
+
+<!-- ******IMAGES LARGE CONTAINER******* -->
+<div class="container">
+  <div class="row text-center">
+    <div class="col-lg-12">
+      <br>
+
+      <!-- START Message Board Table -->
+      <div class="card text-center">
+        <div class="card-header">Message Board</div>
+
+        <div class="card">
+          <table class="container" id="contact-table">
+            <thead>
+              <tr>
+                <th scope="col-5">Name</th>
+                <th scope="col-5">Email</th>
+                <th scope="col-5">Message</th>
+                <th scope="col-5">Date</th>
+              </tr>
+            </thead>
+
+            <tbody id="contact-table">
+              <tr>
+                <th scope="row" id="newRow">
+                </th>
+              </tr>
+            </tbody>
+          </table>
+
+          </section>
+          <!--  -->
+          <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="assets/javascript/app.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+          <!-- Moment.js Reference -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+          </body>
+          <br>
+          <br>
+          <footer class="container fixed-bottom"> Copyright &copy; </footer>
+
+</html>
