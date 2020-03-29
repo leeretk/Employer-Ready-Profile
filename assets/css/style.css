@@ -4,15 +4,22 @@
 /** * HEADER * **/
 
 .jumbotron {
-    background: #2979ff;
-}
-
-
-.container {
-    background: #616161;
+    background: #004d40;
 }
 
 .card {
+    background: red;
+}
+
+.card-header {
+    background: #004d40;
+}
+
+.navbar {
+    background: #004d40;
+}
+
+body {
     background: #004d40;
 }
 
@@ -21,10 +28,16 @@ nav {
     float:right;
     background: #bcaaa4;
 }
-/* 
+
 nav ul {
     padding: 0;
     list-style: none;
+}
+
+.nav-link {
+    font-size: 14px;
+    padding-top: 4px;
+    background: #004d40;
 }
 
 nav li {
@@ -34,7 +47,22 @@ nav li {
     letter-spacing: .1em;
     color: darkgray;
     background-color: #2979ff"
-} */
+} 
+
+div{
+    
+    background: black;
+}
+
+h1 {
+   color: #004d40;
+}
+
+
+/* 
+
+
+
 
 a { text-decoration: none;
     padding: 10px;
@@ -50,12 +78,12 @@ footer {
         width: 100%;
         padding: 20px;
         font-size: 16px;
-        color: #bcaaa4 ;
+        color: white ;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        background-color: #666666;
+        background: #004d40;
         border-top: solid;
-        border-color: #2979ff;
+        border-color:  #bcaaa4;
         border-width: 10px;
     }
 /* 
