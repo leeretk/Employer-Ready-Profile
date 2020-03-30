@@ -4,38 +4,59 @@ body {
   /* Style the header */
 header {
     background-color: #004d40;
-    padding: 30px;
-    text-align: left;
     color: white;
     font-size: 45px;
-    height: 150px;
+    height: 250px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.card-title {
+  padding-top: 50px;
+  
+  font-size: 75px;
 }
 
 img {
     height: 200px;
     width: 300px;
-    padding: 25px;
-    border-color: white;
     float: left;
+    padding: 25px;
 }
+
+a {
+  background-color: #004d40;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.nav-pills {
+  background-color: #004d40;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.nav-link {
+    background-color: #004d40;
+  color: white;
+} 
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-    float:right;
-    background: #ccc;
+  width: 100%;
+  border-top: blanchedalmond;
+  border-bottom: blanchedalmond;
+    background-color: #004d40;
 } 
 
-  /* Style the list inside the menu */
+/* Style the list inside the menu */
 nav ul {
     list-style-type: none;
     padding: 0;
     font-size: 6px;
-  }
-aside {
- width: 25%;
-}  
+}
 
-/* Clear floats after the columns */
+Clear floats after the columns
 section:after {
     content: "";
     display: table;
@@ -48,11 +69,19 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    font-size: 16px;
 }
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
   @media (max-width: 600px) {
-    nav, article {
+    nav, footer, header {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-height: 250px) {
+    nav, footer, heade, body {
       width: 100%;
       height: auto;
     }
@@ -60,25 +89,25 @@ footer {
 
   /* // landscape phones, 576px and up) */
 @media (min-width: 576px) {     
-    .container{
+  nav, footer, header, body{
     padding: 0px;
 } }
 
 /* // tablets, 768px and up) */
 @media (min-width: 768px) {     
-    .container{
+  nav, footer, header, body{
         padding: 0px;
 } }
 
 /* desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .container{
+  nav, footer, header, body {
         padding: 0px;
     }
  }
 
 /* // large desktops, 1200px and up) */
 @media (min-width: 1200px) {     
-    .container{
+  nav, footer, header, body {
         padding: 0px;
-} } */
+}}
