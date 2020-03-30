@@ -11,10 +11,22 @@ header {
     padding-top: 20px;
 }
 
-.card-title {
+.container {
+  margin: 50px;
+}
+
+.card-title-header {
   padding-top: 50px;
-  
-  font-size: 75px;
+    font-size: 75px;
+}
+
+.card-title {
+  margin-top: 100px;
+  font-size: 45px;
+}
+
+p {
+  color: black;
 }
 
 img {
@@ -44,9 +56,8 @@ a {
 /* Create two columns/boxes that floats next to each other */
 nav {
   width: 100%;
-  border-top: blanchedalmond;
-  border-bottom: blanchedalmond;
-    background-color: #004d40;
+  background-color: #004d40;
+  margin-bottom: 30px;
 } 
 
 /* Style the list inside the menu */
@@ -66,7 +77,6 @@ section:after {
 /* Style the footer */
 footer {
     background-color: #004d40;
-    padding: 10px;
     text-align: center;
     color: white;
     font-size: 16px;
@@ -111,3 +121,36 @@ footer {
   nav, footer, header, body {
         padding: 0px;
 }}
+
+/**
+ * Relative Position: sets boxes relative to its original location
+ * (i.e. below or left of where the element would normally be)
+ **/
+
+ .box-set {
+  position: relative;
+  height: 400px;
+  background: darkgray;
+}
+
+.box {
+  /* relative positioning */
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+.box-1 {
+  top: 20px;
+}
+
+.box-2 {
+  left: 40px;
+}
+
+.box-3 {
+  right: 20px;
+  bottom: -10px;
+}
