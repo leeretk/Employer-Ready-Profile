@@ -22,41 +22,46 @@ header {
 
 .card-title {
   margin-top: 100px;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 p {
   color: black;
+  font-size: 12px;
 }
 
-img {
-    height: 200px;
-    width: 300px;
+.header-image {
+  height: 200px;
+  width: 300px;
+  float: left;
+  padding: 25px;
+}
+
+.card-img-top {
+    height: 75px;
+    width: 75px;
     float: left;
     padding: 25px;
 }
 
 a {
-  background-color: #004d40;
-  font-size: 20px;
+ font-size: 20px;
   padding: 5px;
 }
 
 .nav-pills {
-  background-color: #004d40;
+  background-color: gray;
   font-size: 16px;
-  padding: 10px;
 }
 
 .nav-link {
-    background-color: #004d40;
+  background-color: gray;
   color: white;
 } 
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   width: 100%;
-  background-color: #004d40;
   margin-bottom: 30px;
 } 
 
@@ -86,14 +91,14 @@ footer {
   @media (max-width: 600px) {
     nav, footer, header {
       width: 100%;
-      height: auto;
+
     }
   }
 
   @media (max-height: 250px) {
     nav, footer, heade, body {
       width: 100%;
-      height: auto;
+
     }
   }
 
@@ -154,3 +159,8 @@ footer {
   right: 20px;
   bottom: -10px;
 }
+
+.card-group {
+  padding-top: 20px;
+  background-color: gray;
+} 
