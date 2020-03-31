@@ -1,0 +1,22 @@
+{
+  "name": "employer-ready-profile",
+  "version": "1.0.0",
+  "description": "Employer-Ready-Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeretk/Employer-Ready-Profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeretk/Employer-Ready-Profile/issues"
+  },
+  "homepage": "https://github.com/leeretk/Employer-Ready-Profile#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
