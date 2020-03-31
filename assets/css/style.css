@@ -1,107 +1,65 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
+  background-color: #004d40; 
 }
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #004d40; 
+}  
   /* Style the header */
 header {
-    background-color: #004d40;
+    background-color: #004d40; 
     color: white;
-    font-size: 45px;
-    height: 250px;
-    width: 100%;
-    padding-top: 20px;
-    margin-bottom: 100px;
+    font-size: 55px;
+    position: relative;
+    margin-top: 25px;
 }
-
-.container {
-  margin: 50px;
-}
-
-.card-title-header {
-      font-size: 100px;
-}
-
-.card-title {
-  font-size: 30px;
-}
-
-p {
-  color: black;
-  font-size: 12px;
-}
-
 .header-image {
+  float: left;
+  padding: 20px;
+  position:relative;
   height: 200px;
   width: 300px;
-  float: left;
-  padding: 25px;
 }
-
-.card-img-top {
-  height: 50px;
-  width: 50px;
-    float: left;
-    padding: 25px;
+nav {
+  width: 100%;
 } 
-
-/*responsive images*/
-
-a {
- font-size:40px;
- padding: 5px;
-
-}
-
 .nav-pills {
   background-color: gray;
   font-size: 16px;
 }
-
 .nav-link {
   background-color: gray;
   color: white;
 } 
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  width: 100%;
-  margin-bottom: 30px;
-} 
-
-/* Style the list inside the menu */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 6px;
+a {
+  font-size:35px;
+  padding: 5px;
+ }
+p {
+  color: black;
+  font-size:30px;
 }
-/* Clear floats after the columns */
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-   
-/* Style the footer */
 footer {
     background-color: #004d40;
     text-align: center;
     color: white;
     font-size: 40px;
 }
- 
-.card-group {
-  padding-top: 20px;
-  background-color:yellow;
-} 
-
-col {
-  background-color: red;
+.floating-box {
+  border: 3px solid #004d40;  
 }
-
-.row {
-  background-color: #004d40;
+.box-img {
+  float: left;
+  height: 50px;
+  width: 50px;
 }
-
-
+.box-text{
+  font-size: 16px;
+}
+.box-title{
+  font-size: 30px;
+}
 
 
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
@@ -171,3 +129,18 @@ col {
   right: 20px;
   bottom: -10px;
 } /**
+
+/* .card-title-header {
+      font-size: 100px;
+} */
+
+/* .card-title {
+  font-size: 30px;
+} */
+/* .card-group {
+  padding-top: 20px;
+  background-color:yellow;
+}  */
+/* .container {
+  margin: 50px;
+} */
