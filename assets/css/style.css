@@ -1,39 +1,54 @@
 html{
-  scroll-padding-top: var(--top-spacing);
-    margin: var(--top-spacing) auto;
-    max-width: 400px;
-  padding: 0 20px;
-  font: 18px/1.4 system-ui; 
+  margin-top: 400px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 200px;
+  font: 18px/1.4 system-ui;
+  position: center;
 }
 body{
   background-color: darkgray;
+  position: center;
 }
 .row {
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
-}  
-  /* Style the header */
+}
+/* Style the header */
 header {
-    background-color: #004d40; 
-    color: white;
-    font-size: 110px;
-    position: relative;
-margin: 50px;
+  background-color: #004d40;
+  color: white;
+  font-size: 110px;
+  position: relative;
+  margin: 50px;
+}
+.box-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  color:  #004d40;
+}
+.box-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color:  #004d40;
 }
 .header-image {
   float: left;
-  padding: 20px;
   position:relative;
   height: 200px;
   width: 300px;
+  margin-right: 100px;
+  position:center;
 }
 nav {
   width: 100%;
-} 
+}
 img{
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 150px;
 }
 .nav-pills {
   background-color: gray;
@@ -42,90 +57,80 @@ img{
 .nav-link {
   background-color: gray;
   color: white;
-} 
+}
+h5{
+  color:  #004d40;
+}
 a {
   font-size:35px;
   padding: 5px;
- }
+}
 p {
   color: white;
   font-size:0px;
 }
 footer {
-    background-color: #004d40;
-    text-align: center;
-    color: white;
-    font-size: 40px;
+  background-color: #004d40;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
-
-/* *,
-*:before,
-*:after {
+col {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-inline-size: inherit;
+}
+/* *, *:before, *:after {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-} */
+}
+*/
 .container {
   margin: 100px;
-  z-index: inherit 50;;
-  padding:100px;
+  z-index: inherit;
   width: 100%;
   position: relative;
 }
-
-
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
-  @media (max-width: 600px) {
-    nav, footer, header {
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens @media (max-width: 600px) {
+  nav, footer, header {
       width: 100%;
-
-    }
-  }
-
-  @media (max-height: 250px) {
-    nav, footer, heade, body {
-      width: 100%;
-
-    }
-  }
-
-  /* // landscape phones, 576px and up) 
-@media (min-width: 576px) {     
-  nav, footer, header, body{
-    padding: 0px;
-} }
-
-/* // tablets, 768px and up)
-@media (min-width: 768px) {     
-  nav, footer, header, body{
-        padding: 0px;
-} }
-
-/* desktops, 992px and up)
-@media (min-width: 992px) { 
-  nav, footer, header, body {
-        padding: 0px;
-    }
  }
-
-/* // large desktops, 1200px and up) 
-@media (min-width: 1200px) {     
+}
+@media (max-height: 250px) {
+  nav, footer, heade, body {
+      width: 100%;
+ }
+}
+/* // landscape phones, 576px and up) @media (min-width: 576px) {
+  nav, footer, header, body{
+      padding: 0px;
+ }
+}
+/* // tablets, 768px and up) @media (min-width: 768px) {
+  nav, footer, header, body{
+      padding: 0px;
+ }
+}
+/* desktops, 992px and up) @media (min-width: 992px) {
   nav, footer, header, body {
-        padding: 0px;
-}}**/
-
-/**
- * Relative Position: sets boxes relative to its original location
- * (i.e. below or left of where the element would normally be)
- 
- .box-set {
+      padding: 0px;
+ }
+}
+/* // large desktops, 1200px and up) @media (min-width: 1200px) {
+  nav, footer, header, body {
+      padding: 0px;
+ }
+}
+**/
+/** * Relative Position: sets boxes relative to its original location * (i.e. below or left of where the element would normally be) .box-set {
   position: relative;
   height: 400px;
   background: darkgray;
 }
 .box {
-  /* relative positioning 
-  position: relative;
+ /* relative positioning position: relative;
   width: 150px;
   height: 150px;
   background: #2db34a;
@@ -140,19 +145,22 @@ footer {
 .box-3 {
   right: 20px;
   bottom: -10px;
-} /**
-
+}
+/** 
 /* .card-title-header {
-      font-size: 100px;
-} */
-
+  font-size: 100px;
+}
+*/
 /* .card-title {
   font-size: 30px;
-} */
+}
+*/
 /* .card-group {
   padding-top: 20px;
   background-color:yellow;
-}  */
+}
+*/
 /* .container {
   margin: 50px;
-} */
+}
+*/
