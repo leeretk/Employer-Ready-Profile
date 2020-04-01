@@ -101,8 +101,8 @@ col {
   border-color: #004d40;
 }
 .img-portfolio {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens @media (max-width: 600px) {
