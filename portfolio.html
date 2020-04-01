@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <html lang="en">
     <meta charset="UTF-8" />
@@ -15,8 +16,8 @@
     <script type="text/javascript" src="./assets/js/contacts.js"></script>
     <title>Kamy Leeret</title>
 </head>
-
-
+<!-- 
+      class="container-fluid" -->
 <body class="container-fluid">
     <!--Header -->
     <!--Header -->
@@ -37,8 +38,10 @@
                     aria-controls="pills-linkedin">LinkedIn</a>
                 <a class="flex-sm-fill text-sm-center nav-link" href="portfolio.html" role="tab"
                     aria-controls="pills-portfolio">Portfolio</a>
+
                 <a class="flex-sm-fill text-sm-center nav-link" href="https://github.com/leeretk" role="tab"
                     aria-controls="pills-github">GitHub</a>
+
                 <a class="flex-sm-fill text-sm-center nav-link" href="./assets/docs/Leeret Kamy Resume 20200328.pdf"
                     role="tab" aria-controls="pills-resume">Resume</a>
             </nav>
@@ -47,73 +50,65 @@
     </header>
     <!--end header -->
 
-    <!--start Portfolio -->
-   <div clas="card">
-    <div class="row">
-            <div class="col-sm">
-                <img class=portfolioImages src="assets\images\RobiPhone21813204_zps19edf49c - Copy.jpg"
-                    alt="mygirls">
-                <div class="centered ">
-                    <h3>Trails on Tap</h3>
-                    <p class="box-text">
-                        <br>&#9830 Problems Had to Solve
-                        <br>&#9830 
-                    </p>
-                </div>
+    <!--start about me -->
+    <div clas="card">
+        <div class="row">
+            <div class="col">
+                <img class="img-portfolio img-container " src="./assets/images/trails_on_tap_img.jpg"
+                    alt="trails on Tap">
+
+                <a class="flex-sm-fill text-sm-center nav-link" href="https://skip1113.github.io/class-pro-1/"
+                    role="button"></a>
+
+                <h5 class="box-title">Trails on Tap</h5>
+                <p class="box-text">
+                    <br>&#9830 Application that allows the enduser search for Hiking Trails and Breweries within close
+                    proxity.
+                    <br>&#9830 This app would be useful for those are planning a hike or bike route.
+                    <br>&#9830 This would be useful for Hikers looking for a beverage after a grueling hike.
+                </p>
             </div>
+            <div class="col">
+                <img class="img-portfolio img-container " src="./assets/images/isnt_that_giftastic_img.jpg"
+                    alt="experience">
+                <a class="flex-sm-fill text-sm-center nav-link" href="https://leeretk.github.io/GifTastic/"
+                    role="button"></a>
 
-        </div>
-
-        <div class="col-sm">
-            <img class=portfolioImages src="assets\images\IMG_6979-smaller (2).jpg" alt="mountains">
-            <div class="centered">
-                <h3>Mountains</h3>
+                <h5 class="box-title">Isn't That Giftastic?</h5>
+                <p class="box-text">
+                    <br>&#9830 Supply Chain
+                    <br>&#9830 Strategic Sourcing
+                    <br>&#9830 Value Analysis
+                    <br>&#9830 Analytics
+                </p>
             </div>
-        </div>
+            <div class="col">
+                <img class="img-portfolio img-container " src="./assets/images/train_schedule_img.png" alt="coding">
+
+                <a class="flex-sm-fill text-sm-center nav-link" href="https://leeretk.github.io/train-schedule/"
+                    role="button"></a>
 
 
-        <div class="col">
-            <img src="./assets/images/Experience.png" alt="experience">
-            <h5 class="box-title">Professional Experience</h5>
-            <p class="box-text">
-                <br>&#9830 
-            </p>
-        </div>
-        <div class="col">
-            <img src="./assets/images/coding.png" alt="coding">
-            <h5 class="box-title">Full Stack Development</h5>
-            <p class="box-text">
-                <br>&#9830  <br>
-            </p>
-        </div>
-        <div class="col">
-            <img src="src="assets\images\IMG_6979-smaller (2).jpg" alt="business intelligence">
-            <h5 class="box-title">Business Intelligence</h5>
-            <p class="box-text">
-                <br>&#9830 
-            </p>
-
-
-
-            </div>
-        </div>
-                <div class="col-sm">
-                    <img class="portfolioImages" src="assets\images\2112012300_zps9ca65a4c.jpg" alt="colorado">
-                    <div class="centered">
-                        <h3>Colorado</h3>
-                    </div>
-                </div>
+                <h5 class="box-title">Systems & Technology</h5>
+                <p class="box-text">
+                    <br>&#9830 HTML, CSS, Bootstrap
+                    <br>&#9830 javascript, jquery, node
+                    <br>&#9830 SharePoint, Nintex, Infopath
+                    <br>&#9830 SQL, SSIS, SSRS, Visual Studio
+                    <br>&#9830 Python, R, SQL, SAS
+                    <br>&#9830 Pyxis, Crystal MS Office
+                    <br>&#9830 Lawson, Pyxis, Par Excellence, Mobile Supply Chain
+                    <br>
+                    <br>High performing Supply Chain Director with recognized achievements through
+                    development of
+                    technology to improveflow, efficiency and productivity in strategic and actionable ways.
+                </p>
             </div>
         </div>
-
-        </div>
-        <br>
-        <br>
-    </section>
-    <!--end portfolio -->
-
-
-    <!--scripts  -->
+    </div>
+    <footer class="fixed-bottom"> Copyright &copy; </footer>
+    </div>
+    <!--scripts  floating-box -->
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -121,11 +116,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!-- Moment.js Reference -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
-
 </body>
-
-</div>
-
-<footer class="fixed-bottom"> Copyright &copy; </footer>
 
 </html>
