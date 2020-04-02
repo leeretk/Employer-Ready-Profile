@@ -1,8 +1,8 @@
 html{
-  margin-top: 400px;
-  margin-right: 200px;
-  margin-left: 200px;
-  margin-bottom: 200px;
+  margin-top: 350px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 40px;
   font: 18px/1.4 system-ui;
   position: center;
 }
@@ -100,12 +100,14 @@ col {
 }
 .img-portfolio {
   height: 200px;
-  width: 200px;
+  width: 400px;
 }
 .portfolio-div {
   column-gap: 200px;
 } */
-
+.a-portfolio {
+  font-size: 16px;
+}
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens @media (max-width: 600px) {
   nav, footer, header {
       width: 100%;
