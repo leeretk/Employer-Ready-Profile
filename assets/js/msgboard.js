@@ -26,7 +26,7 @@ $("#add-new-contact").on("click", function () {
   console.log()
 
   //grabs user input//
-  clickCounter = $("#counter-input").val().trim();
+  // clickCounter = $("#counter-input").val().trim();
   name = $("#name-input").val().trim();
   email = $("#email-input").val().trim();
   message = $("#message-input").val().trim();

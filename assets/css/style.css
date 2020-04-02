@@ -1,8 +1,8 @@
 html{
-  margin-top: 400px;
-  margin-right: 100px;
+  margin-top: 200px;
   margin-left: 100px;
-  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-bottom: 50px;
   font: 18px/1.4 system-ui;
   position: center;
 }
@@ -23,6 +23,7 @@ header {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
+  border-bottom: coral;
 }
 .box-title {
   padding-top: 10px;
@@ -71,7 +72,6 @@ a {
 p {
   color: white;
   font-size:0px;
-  text-align: left;
 }
 footer {
   background-color: #004d40;
@@ -89,13 +89,13 @@ col {
   box-sizing: border-box;
 }
 .container {
+  margin-top: 50px;
   margin: 100px;
-  z-index: inherit;
   width: 100%;
   position: relative;
 }
 .img-container {
-  border-width: 10px;
+  border-width: 6px;
   border-color: #004d40;
 }
 .img-portfolio {
@@ -108,8 +108,29 @@ col {
 .a-portfolio {
   font-size: 16px;
 }
+form {
+  margin-top: 25px;
+  border-radius: 3px;
+  background-color: coral;
+  border:1px;
+}
+ #form_title {
+   font-size:20px;
+   color: coral;
+}
+.card-header {
+  background-color: #004d40;
+  color: coral;
+  font-size: 35px;
+}
+.card-body {
+  margin-top: 10px;
+  padding: 25%;
+  width: 100%;
+}
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens  */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   nav, footer, header {
       width: 100%;
  }
@@ -120,27 +141,27 @@ col {
  }
 }
  /* landscape phones, 576px and up)  */
- @media (min-width: 576px) {
+ /* @media (min-width: 576px) {
   nav, footer, header, body{
       padding: 0px;
  }
 }
 /* tablets, 768px and up) */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   nav, footer, header, body{
       padding: 0px;
  }
-}
+} */
 /* desktops, 992px and up)  */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   nav, footer, header, body {
       padding: 0px;
  }
-}
+} */
 /* large desktops, 1200px and up)  */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   nav, footer, header, body {
       padding: 0px;
- }
-};
+ } */
+}; */ */
 
