@@ -1,8 +1,7 @@
 html{
-  margin-top: 200px;
-  margin-left: 100px;
+  margin-top: 250px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-left: 50px;
   font: 18px/1.4 system-ui;
   position: center;
 }
@@ -10,44 +9,54 @@ body{
   background-color: darkgray;
   position: center;
 }
+.row-aboutMe {
+  font-size: 14px;
+  color: white;
+}
 .row {
   padding-bottom: 10px;
   color: white;
 }
-/* Style the header */
 header {
   background-color: #004d40;
   color: white;
-  font-size: 110px;
+  font-size: 75px;
   position: relative;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
   border-bottom: coral;
 }
+.img-header {
+  float: left;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
 .box-title {
-  padding-top: 10px;
-  font-size: 35px;
+  font-size: 25px;
   color:  #004d40;
 }
 .box-text {
-  padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
   color:darkslategrey ;
-  margin-left: 20px;
-}
-.header-image {
-  float: left;
-  width: 100px;
-  height: 100px;
 }
 nav {
   width: 100%;
 }
-img{
+.img-container {
+  padding: 25px;
+  border-width: 6px;
+  border-color: #004d40;
+}
+.img-portfolio {
   height: 200px;
-  width: 200px;
+  width: 300px;
+}
+.img-aboutMe {
+  height: 75px;
+  width: 75px;
 }
 .nav-pills {
   background-color: gray;
@@ -64,46 +73,27 @@ a {
   font-size:35px;
 }
 p {
-  color: white;
-  font-size:0px;
+  color: coral;
+  font-size:14px;
+}
+.p-aboutMeblurb {
+  color:#004d40;
+  font-size:20px;
+  background-color: lightcoral;
 }
 footer {
   background-color: #004d40;
   text-align: center;
   color: white;
-  font-size: 40px;
-}
-col {
-  display: flex;
-  max-inline-size: inherit;
-}
- *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.container {
-  margin-top: 50px;
-  margin: 100px;
-  width: 100%;
-  position: relative;
-}
-.img-container {
-  border-width: 6px;
-  border-color: #004d40;
-}
-.img-portfolio {
-  height: 200px;
-  width: 300px;
+  font-size: 25px;
 }
 .portfolio-div {
   column-gap: 200px;
-} */
+} 
 .a-portfolio {
   font-size: 16px;
 }
 form {
-  margin-top: 25px;
   border-radius: 3px;
   background-color: coral;
   border:1px;
@@ -115,14 +105,17 @@ form {
 .card-header {
   background-color: #004d40;
   color: coral;
-  font-size: 35px;
+  font-size: 25px;
 }
 .card-body {
-  margin-top: 10px;
-  padding: 25%;
-  width: 100%;
+  padding: 40px;
+}
+.no-gutters {
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
+  
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens  */
 /* @media (max-width: 600px) {
   nav, footer, header {
@@ -133,7 +126,7 @@ form {
   nav, footer, heade, body {
       width: 100%;
  }
-}
+} */
  /* landscape phones, 576px and up)  */
  /* @media (min-width: 576px) {
   nav, footer, header, body{
@@ -157,5 +150,4 @@ form {
   nav, footer, header, body {
       padding: 0px;
  } */
-}; */ */
 
