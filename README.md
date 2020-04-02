@@ -90,7 +90,7 @@ website
 # Live link to this app: https://leeretk.github.io/GifTastic/
 
 
-![] C:\Users\Kamy\Employer-Ready-Profile\assets\images\isn't_that_giftastic_img.jpg
+![](https://github.com/leeretk/Employer-Ready-Profile/blob/master/assets/images/isnt_that_giftastic_img.jpg)
 
 # What is it? 
 
@@ -137,7 +137,7 @@ Isn't this Giftastic is an app that lets you search Giphy images.  This game has
 # Live link to this app: https://leeretk.github.io/train-schedule/
 
 
-![] C:\Users\Kamy\Employer-Ready-Profile\assets\images\train_schedule_img.png
+![](https://github.com/leeretk/Employer-Ready-Profile/blob/master/assets/images/train_schedule_img.png)
 
 # What is it? 
 
