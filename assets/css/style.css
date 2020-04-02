@@ -51,8 +51,9 @@ nav {
   border-color: #004d40;
 }
 .img-portfolio {
+  float: left;
   height: 200px;
-  width: 300px;
+  width: 200px;
 }
 .img-aboutMe {
   height: 75px;
@@ -77,9 +78,10 @@ p {
   font-size:14px;
 }
 .p-aboutMeblurb {
-  color:#004d40;
+  padding:5px;
+  color: white;
   font-size:20px;
-  background-color: lightcoral;
+  background-color: coral;
 }
 footer {
   background-color: #004d40;
@@ -89,7 +91,7 @@ footer {
 }
 .portfolio-div {
   column-gap: 200px;
-} 
+}
 .a-portfolio {
   font-size: 16px;
 }
