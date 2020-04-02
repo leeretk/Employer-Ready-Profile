@@ -39,14 +39,8 @@ header {
 }
 .header-image {
   float: left;
-  position:relative;
-  height: 200px;
-  width: 300px;
-  margin-right: 100px;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  position:center;
+  width: 100px;
+  height: 100px;
 }
 nav {
   width: 100%;
