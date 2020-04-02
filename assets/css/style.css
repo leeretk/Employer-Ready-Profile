@@ -26,7 +26,6 @@ header {
 }
 .box-title {
   padding-top: 10px;
-  padding-bottom: 10px;
   font-size: 35px;
   color:  #004d40;
 }
@@ -35,6 +34,7 @@ header {
   padding-bottom: 10px;
   font-size: 20px;
   color:darkslategrey ;
+  margin-left: 20px;
 }
 .header-image {
   float: left;
@@ -67,11 +67,11 @@ h5{
 }
 a {
   font-size:35px;
-  padding: 5px;
 }
 p {
   color: white;
   font-size:0px;
+  text-align: left;
 }
 footer {
   background-color: #004d40;
@@ -81,8 +81,6 @@ footer {
 }
 col {
   display: flex;
-  padding-left: 40px;
-  padding-right: 40px;
   max-inline-size: inherit;
 }
  *, *:before, *:after {
@@ -97,13 +95,16 @@ col {
   position: relative;
 }
 .img-container {
-  border-width: 2px;
+  border-width: 10px;
   border-color: #004d40;
 }
 .img-portfolio {
   height: 200px;
   width: 200px;
 }
+.portfolio-div {
+  column-gap: 200px;
+} */
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens @media (max-width: 600px) {
   nav, footer, header {
