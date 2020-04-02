@@ -1,5 +1,5 @@
 html{
-  margin-top: 350px;
+  margin-top: 400px;
   margin-right: 100px;
   margin-left: 100px;
   margin-bottom: 40px;
@@ -100,7 +100,7 @@ col {
 }
 .img-portfolio {
   height: 200px;
-  width: 400px;
+  width: 300px;
 }
 .portfolio-div {
   column-gap: 200px;
@@ -108,7 +108,8 @@ col {
 .a-portfolio {
   font-size: 16px;
 }
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens @media (max-width: 600px) {
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens  */
+@media (max-width: 600px) {
   nav, footer, header {
       width: 100%;
  }
@@ -118,64 +119,28 @@ col {
       width: 100%;
  }
 }
-/* // landscape phones, 576px and up) @media (min-width: 576px) {
+ /* landscape phones, 576px and up)  */
+ @media (min-width: 576px) {
   nav, footer, header, body{
       padding: 0px;
  }
 }
-/* // tablets, 768px and up) @media (min-width: 768px) {
+/* tablets, 768px and up) */
+@media (min-width: 768px) {
   nav, footer, header, body{
       padding: 0px;
  }
 }
-/* desktops, 992px and up) @media (min-width: 992px) {
+/* desktops, 992px and up)  */
+@media (min-width: 992px) {
   nav, footer, header, body {
       padding: 0px;
  }
 }
-/* // large desktops, 1200px and up) @media (min-width: 1200px) {
+/* large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
   nav, footer, header, body {
       padding: 0px;
  }
-}
-**/
-/** * Relative Position: sets boxes relative to its original location * (i.e. below or left of where the element would normally be) .box-set {
-  position: relative;
-  height: 400px;
-  background: darkgray;
-}
-.box {
- /* relative positioning position: relative;
-  width: 150px;
-  height: 150px;
-  background: #2db34a;
-  border: 2px solid black;
-}
-.box-1 {
-  top: 20px;
-}
-.box-2 {
-  left: 40px;
-}
-.box-3 {
-  right: 20px;
-  bottom: -10px;
-}
-/** 
-/* .card-title-header {
-  font-size: 100px;
-}
-*/
-/* .card-title {
-  font-size: 30px;
-}
-*/
-/* .card-group {
-  padding-top: 20px;
-  background-color:yellow;
-}
-*/
-/* .container {
-  margin: 50px;
-}
-*/
+};
+
