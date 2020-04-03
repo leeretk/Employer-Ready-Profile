@@ -41,6 +41,7 @@ header {
   font-size: 35px;
   margin-bottom: 50px;
   border-bottom: coral;
+  width: 100%;
 }
 .img-header {
   float: left;
@@ -57,7 +58,7 @@ header {
   font-size: 16px;
   color:darkslategrey ;
 }
-nav {
+nav{
   width: 100%;
 }
 .img-portfolio {
@@ -73,6 +74,7 @@ nav {
 .nav-pills {
   background-color: gray;
   font-size: 16px;
+
 }
 .nav-link {
   background-color: gray;
@@ -108,7 +110,6 @@ footer {
 }
 .container { 
   margin-left: 50px;
-  margin-right: 50px; 
 }
 .a-portfolio {
   font-size: 16px;
@@ -134,7 +135,7 @@ label {
   color: #004d40;
   font-size: 25px;
   margin-left: 50px;
-  margin-right: 50px;
+
 }
 tbody {
   color: coral;
