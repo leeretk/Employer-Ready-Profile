@@ -57,6 +57,7 @@
         <div class="row no-gutters">
     <!-- ******MESSAGE CONTAINER******* -->
     <div class="col-lg">
+
       <div class=container>
         <div class="row text-center">
           <div class="col-lg">
@@ -69,23 +70,24 @@
               
               <!-- ******INPUT FORM FOR A NEW CONTACT*******-->
               <div class="card-body">
+
                 <form role="form">
                   <div class="form-group">
                     <form>
                       <div class="row">
-                        <label for="name-input" class="col-8 col-md-4 col-form-label">Name</label>
+                        <label for="name-input" class="col-md-4 col-form-label">Name</label>
                         <input type="text" id="name-input">
                       </div>
                       <div class="row">
-                        <label for="email-input" class="col-6 col-md-4 col-form-label">Email </label>
+                        <label for="email-input" class="col-md-4 col-form-label">Email </label>
                         <input type="text" id="email-input">
                       </div>
                       <div class="row">
-                        <label for="message-input" class="col-6 col-md-4 col-form-label">Message</label>
+                        <label for="message-input" class="col-md-4 col-form-label">Message</label>
                         <input type="text" id="message-input">
                       </div>
                       <div class=" row">
-                        <label for="date-input" class="col-6 col-md-4 col-form-label">Date</label>
+                        <label for="date-input" class="col-md-4 col-form-label">Date</label>
                         <input type="text" id="date-input">
                       </div>
                   </div>
@@ -96,35 +98,46 @@
                     </button>
                   </div>
                 </form>
+
               </div>
             </div>
           </div>
+
+
           <div>
             <div>
             <div>
               <div>
                 <div>
                   <!-- ******MESSAGE BOARD CONTAINER******* -->
-                  <div class="col-lg-12">
+                  <div class="col-lg">
                     <div class=container>
                       <div class="row text-center">
-                        <div class="col-lg-12">
+                        <div class="col-lg">
                           <br>
                           <div class="card text-center">
 
                               <!-- ******INPUT FORM FOR A NEW CONTACT*******-->
-                            <div class="card-header">
+                              <div class=container>
+                              <div class="card-header">
                               <strong><i></i> Message Board </strong>
                             </div>
                             <div class="card-body">
-                              <table class="table table-hover" id='contacts-table'>
+   
+                              <table class="table table-hover" id="contacts-table" style="width: 100%";>
                                 <thead>
                                   <tr>
-                                    <th scope="col-5"> Count</th>
-                                    <th scope="col-5">Name</th>
-                                    <th scope="col-5">Email</th>
-                                    <th scope="col-5">Message</th>
-                                    <th scope="col-5">Date</th>
+                                    <th scope="col-1">Count</th>
+                                    <th scope="col-1">Name</th>
+                                    <th scope="col-1">Email</th>
+                                    <th scope="col-1" class="overflow-wrap-hack">
+<!-- 
+                                      <td style="word-wrap: break-word"></td> -->
+                                      <!-- <span style="display: inline;"></span> -->
+                                      Message</th>
+
+                                    
+                                    <th scope="col-1">Date</th>
                                   </tr>
                                 </thead>
                                 <tbody id="contacts-table">
@@ -134,6 +147,8 @@
                                   </tr>
                                 </tbody>
                               </table>
+                            </div>
+
                             </div>
                           </div>
                         </div>

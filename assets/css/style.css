@@ -138,6 +138,8 @@ label {
 
 }
 tbody {
+  word-break: break-all;
+
   color: coral;
 }
 table thead tr td th { 
