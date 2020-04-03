@@ -128,6 +128,7 @@ form {
 label {
   font-weight: bold;
   color: coral;
+  text-align: left;
 }
 .thead {
   color: coral;
@@ -146,6 +147,7 @@ table thead tr td th {
 }
 .card-body {
   margin-right: 50px;
+  color: coral;
   margin-left: 50x;
 }
 .no-gutters {
