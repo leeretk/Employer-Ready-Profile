@@ -2,6 +2,7 @@
 Employer-Ready-Portfolio
 Profile for Kamy Leeret
 
+#Live Site: https://leeretk.github.io/Employer-Ready-Profile/
 
 ![](https://leeretk.github.io/Employer-Ready-Profile/) 
 
