@@ -109,7 +109,7 @@ footer {
 .portfolio-div {
   column-gap: 200px;
 }
-.container2 { 
+.container { 
   margin-left: 50px;
   margin-right: 50px; 
 }
@@ -131,7 +131,6 @@ label {
 }
 .thead {
   color: coral;
-
 }
 .card-header {
   color: #004d40;
@@ -154,32 +153,31 @@ table thead tr td th {
   margin-right: 50px;
 }
 @media (max-width: 600px) {
-  nav, footer, header body {
+  nav, footer, header body .container{
       width: 100%;    
  }
 }
 @media (max-height: 250px) {
-  nav, footer, heade, body {
+  nav, footer, heade, body  .container{
       width: 100%;
  }
 }
 @media (min-width: 576px) {
-  nav, footer, header, body{
+  nav, footer, header, body .container{
       padding: 0px;
  }
 }
 @media (min-width: 768px) {
-  nav, footer, header, body{
+  nav, footer, header, body .container{
       padding: 0px;
  }
 } 
 @media (min-width: 992px) {
-  nav, footer, header, body {
+  nav, footer, header, body .container {
       padding: 0px;
  }
 }
  @media (min-width: 1200px) {
-  nav, footer, header, body {
-      padding: 0px;
- }
+  nav, footer, header, body  .container {
+      padding: 0px; 
  }
