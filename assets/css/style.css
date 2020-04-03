@@ -129,6 +129,10 @@ label {
   font-weight: bold;
   color: coral;
 }
+.thead {
+  color: coral;
+
+}
 .card-header {
   color: #004d40;
   font-size: 25px;
