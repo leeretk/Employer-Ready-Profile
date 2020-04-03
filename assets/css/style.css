@@ -17,11 +17,15 @@ body{
   margin-right: 50px;
   margin-left: 50px;
 }
+h1 {
+  padding-top: 20px;
+}
 .row {
   padding-bottom: 10px;
   color: white;
   margin-right: 50px;
   margin-left: 50px;
+  font-size: 20px;
 }
 .p-below-nav {
 font-size: 24px;
@@ -40,7 +44,6 @@ header {
   margin-bottom: 50px;
   border-bottom: coral;
 }
-
 .img-header {
   float: left;
   width: 100px;
@@ -122,6 +125,10 @@ form {
    font-size:20px;
    color: coral;
 }
+label {
+  font-weight: bold;
+  color: coral;
+}
 .card-header {
   color: #004d40;
   font-size: 25px;
@@ -137,7 +144,7 @@ form {
   margin-right: 50px;
 }
 @media (max-width: 600px) {
-  nav, footer, header {
+  nav, footer, header body {
       width: 100%;    
  }
 }
