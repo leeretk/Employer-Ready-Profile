@@ -22,45 +22,37 @@
       </div>
     </div>
     <!--start navigation -->
-    <div>
       <nav class="nav nav-pills flex-column flex-sm-row">
-          <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="index.html" role="tab"
-              aria-controls="pills-aboutme">About Me</a>
-          <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="msgboard.html" role="tab"
-              aria-controls="pills-messageboard">Message Board</a>
-          <a target="_blank" class="flex-sm-fill text-sm-center nav-link"
-              href="https://www.linkedin.com/in/kamy-leeret-mspa-57161348/" role="tab"
-              aria-controls="pills-linkedin">LinkedIn</a>
-          <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="portfolio.html" role="tab"
-              aria-controls="pills-portfolio">Portfolio</a>
-          <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="https://github.com/leeretk"
-              role="tab" aria-controls="pills-github">GitHub</a>
-          <a target="_blank" class="flex-sm-fill text-sm-center nav-link"
-              href="./assets/docs/Leeret Kamy Resume 20200328.pdf" role="tab"
-              aria-controls="pills-resume">Resume</a>
+        <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="index.html" role="tab"
+          aria-controls="pills-aboutme">About Me</a>
+        <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="msgboard.html" role="tab"
+          aria-controls="pills-messageboard">Message Board</a>
+        <a target="_blank" class="flex-sm-fill text-sm-center nav-link"
+          href="https://www.linkedin.com/in/kamy-leeret-mspa-57161348/" role="tab"
+          aria-controls="pills-linkedin">LinkedIn</a>
+        <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="portfolio.html" role="tab"
+          aria-controls="pills-portfolio">Portfolio</a>
+        <a target="_blank" class="flex-sm-fill text-sm-center nav-link" href="https://github.com/leeretk" role="tab"
+          aria-controls="pills-github">GitHub</a>
+        <a target="_blank" class="flex-sm-fill text-sm-center nav-link"
+          href="./assets/docs/Leeret Kamy Resume 20200328.pdf" role="tab" aria-controls="pills-resume">Resume</a>
       </nav>
-  </div>
     <!--end navigation -->
   </header>
   <!--end header -->
 
-  <div>
-    <!-- ******IMAGES LARGE CONTAINER******* -->
-    <div>
-      <div class="container">
-        <!-- ROW FOR-->
-        <div class="row no-gutters">
-          <div class="row text-right">
-            <div class="col-lg-12">
-              <br>
-              <!-- ****** ADD  CARD ******* -->
-              <div class="card text-center">
-                <div class="card-header">
-                  <strong><i></i>
-                    Enter Message Here
-                  </strong>
-                </div>
+    <!-- ******MESSAGE CONTAINER******* -->
+    <div class="col-lg-12">
+      <div class=container>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <br>
+            
+            <div class="card text-center">
+              <div class="card-header">
+                <strong><i></i> Message Board </strong>
               </div>
+              
               <!-- ******INPUT FORM FOR A NEW CONTACT*******-->
               <div class="card-body">
                 <form role="form">
@@ -94,61 +86,63 @@
             </div>
           </div>
           <div>
-            <div></div>
+            <div>
             <div>
               <div>
                 <div>
+                  <!-- ******MESSAGE BOARD CONTAINER******* -->
                   <div class="col-lg-12">
-                      <!-- ******IMAGES LARGE CONTAINER******* -->
-                      <div class=container>
-                        <div class="row text-center">
-                          <div class="col-lg-12">
-                            <br>
-                            <div class="card text-center">
-                              <div class="card-header">
-                                <strong><i></i> Message Board </strong>
-                              </div>
-                              <div class="card-body">
-                                <table class="table table-hover" id='contacts-table'>
-                                  <thead>
-                                    <tr>
-                                      <th scope="col-5"> Count</th>
-                                      <th scope="col-5">Name</th>
-                                      <th scope="col-5">Email</th>
-                                      <th scope="col-5">Message</th>
-                                      <th scope="col-5">Date</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody id="contacts-table">
-                                    <tr>
-                                      <th scope="row" id="newRow">
-                                      </th>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
+                    <div class=container>
+                      <div class="row text-center">
+                        <div class="col-lg-12">
+                          <br>
+                          <div class="card text-center">
+
+                              <!-- ******INPUT FORM FOR A NEW CONTACT*******-->
+                            <div class="card-header">
+                              <strong><i></i> Message Board </strong>
+                            </div>
+                            <div class="card-body">
+                              <table class="table table-hover" id='contacts-table'>
+                                <thead>
+                                  <tr>
+                                    <th scope="col-5"> Count</th>
+                                    <th scope="col-5">Name</th>
+                                    <th scope="col-5">Email</th>
+                                    <th scope="col-5">Message</th>
+                                    <th scope="col-5">Date</th>
+                                  </tr>
+                                </thead>
+                                <tbody id="contacts-table">
+                                  <tr>
+                                    <th scope="row" id="newRow">
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <footer class="fixed-bottom"> Copyright &copy; </footer>
                   </div>
+                  <footer class="fixed-bottom"> Copyright &copy; </footer>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- end MESSAGE -->
+    </div>
+    <!-- end MESSAGE -->
 
 
-      <!--scripts  -->
-      <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="./assets/js/msgboard.js"></script>
+    <!--scripts  -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/msgboard.js"></script>
 
 </body>
 
