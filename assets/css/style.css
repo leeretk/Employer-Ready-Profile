@@ -1,5 +1,5 @@
 html{
-  margin-top: 250px;
+  /* margin-top: 250px; */
   margin-right: 50px;
   margin-left: 50px;
   font: 18px/1.4 system-ui;
@@ -16,6 +16,14 @@ body{
 .row {
   padding-bottom: 10px;
   color: white;
+}
+.p-below-nav {
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+width: 100%;
 }
 header {
   background-color: #004d40;
@@ -48,12 +56,9 @@ nav {
 .img-container {
   padding: 25px;
   border-width: 6px;
-  border-color: #004d40;
   border-color: lightgreen;
-
 }
 .img-portfolio {
-  border-color: lightgreen;
   float: left;
   height: 250px;
   width: 300px;
@@ -79,14 +84,9 @@ a {
   font-size:35px;
 }
 p {
-  color: coral;
+  color: #004d40;
   font-size:16px;
 }
-
-.portfolio-column {
-  
-}
-
 .p-aboutMeblurb {
   padding:5px;
   color: white;
@@ -107,7 +107,7 @@ footer {
 }
 form {
   border-radius: 3px;
-  background-color: coral;
+  color: #004d40;
   border:1px;
 }
  #form_title {
@@ -115,52 +115,44 @@ form {
    color: coral;
 }
 .card-header {
-  background-color: #004d40;
-  color: coral;
+  color: #004d40;
   font-size: 25px;
 }
 .card-body {
-  margin-right: 20px;
-  margin-left: 20x;
+  margin-right: 50px;
+  margin-left: 50x;
 }
 .no-gutters {
   margin-right: 50px;
   margin-left: 50px;
 }
-
-  
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens  */
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   nav, footer, header {
-      width: 100%;
+      width: 100%;    
  }
 }
 @media (max-height: 250px) {
   nav, footer, heade, body {
       width: 100%;
  }
-} */
- /* landscape phones, 576px and up)  */
- /* @media (min-width: 576px) {
+}
+@media (min-width: 576px) {
   nav, footer, header, body{
       padding: 0px;
  }
 }
-/* tablets, 768px and up) */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   nav, footer, header, body{
       padding: 0px;
  }
-} */
-/* desktops, 992px and up)  */
-/* @media (min-width: 992px) {
+} 
+@media (min-width: 992px) {
   nav, footer, header, body {
       padding: 0px;
  }
-} */
-/* large desktops, 1200px and up)  */
-/* @media (min-width: 1200px) {
+}
+ @media (min-width: 1200px) {
   nav, footer, header, body {
       padding: 0px;
- } */
-
+ }
+ }
