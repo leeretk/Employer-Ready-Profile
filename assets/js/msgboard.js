@@ -10,7 +10,7 @@ var firebaseConfig = {
 };
 
 firebase.initializeApp(config);
-var portoflioContacts = firebase.database();
+var database = firebase.database();
 
 ///// ADD RECORDS TO THE FIREBASE DATABASE //////
 
@@ -47,7 +47,7 @@ $("#add-new-contact-btn").on("click", function () {
   };
 
   //uploads data to the database
-  portoflioContacts.ref().push(contactPush);
+  database.ref().push(contactPush);
 
   console.log("got a Lead" + contactPush);
 
@@ -65,7 +65,7 @@ $("#add-new-contact-btn").on("click", function () {
   $("#email-input").val("");
   $("#message-input").val("");
   $("#date-input").val("");
-console.log("data received")
+  console.log("data received")
 });
 
 
