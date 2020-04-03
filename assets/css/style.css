@@ -50,7 +50,7 @@ header {
 }
 .box-title {
   font-size: 25px;
-  color:  #004d40;
+  color:darkslategrey ;
 }
 .box-text {
   padding-bottom: 10px;
@@ -64,9 +64,7 @@ nav {
   float: left;
   height: 250px;
   width: 300px;
-  padding: 25px;
-  border-width:106px;
-  border-color: lightgreen;
+  margin: 5px;
 }
 .img-aboutMe {
   height: 75px;
@@ -90,7 +88,7 @@ a {
 }
 p {
   color: #004d40;
-  font-size:16px;
+  font: size 12px;
 }
 .p-aboutMeblurb {
   padding:5px;
