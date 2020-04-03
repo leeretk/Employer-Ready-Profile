@@ -66,9 +66,9 @@ $("#add-new-contact-btn").on("click", function () {
   $("#email-input").val("");
   $("#message-input").val("");
   $("#date-input").val("");
+
   console.log("data received")
 });
-
 
 ///// CREATE A FIREBASE EVENT //////
 
@@ -89,10 +89,16 @@ database.ref().on("child_added", function (childSnapshot) {
   // Add each contacts's data into the table
   $("#contacts-table > tbody").append(
     $("<tr>").append(
+      $("<td>").text(contactCounter),
       $("<td>").text(contactName),
       $("<td>").text(contactEmail),
       $("<td>").text(contactMessage),
       $("<td>").text(contactDate),
     )
   );
+  console.log("added to contacts table")
+
+  // Append the new row to the table
+  $("#contacts-table > tbody").append(newRow);
 });
+

@@ -139,6 +139,12 @@ label {
   margin-left: 50px;
   margin-right: 50px;
 }
+tbody {
+  color: coral;
+}
+table thead tr td th { 
+  color: coral;  font-size: 16px;
+}
 .card-body {
   margin-right: 50px;
   margin-left: 50x;
