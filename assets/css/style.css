@@ -40,10 +40,11 @@ header {
   margin-bottom: 50px;
   border-bottom: coral;
 }
+
 .img-header {
   float: left;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   padding: 20px;
 }
 .box-title {
@@ -58,15 +59,13 @@ header {
 nav {
   width: 100%;
 }
-.img-container {
-  padding: 25px;
-  border-width: 6px;
-  border-color: lightgreen;
-}
 .img-portfolio {
   float: left;
   height: 250px;
   width: 300px;
+  padding: 25px;
+  border-width:106px;
+  border-color: lightgreen;
 }
 .img-aboutMe {
   height: 75px;
