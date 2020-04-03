@@ -59,7 +59,7 @@ nav {
   width: 300px;
 }
 .img-aboutMe {
-height: 75px;
+  height: 75px;
   width: 75px;
 }
 .nav-pills {
@@ -70,8 +70,9 @@ height: 75px;
   background-color: gray;
   color: white;
 }
-h5{
+h5 {
   color:  #004d40;
+  font-weight: bold;
   font-size: 20px;
 }
 a {
@@ -79,8 +80,13 @@ a {
 }
 p {
   color: coral;
-  font-size:14px;
+  font-size:16px;
 }
+
+.portfolio-column {
+  
+}
+
 .p-aboutMeblurb {
   padding:5px;
   color: white;
@@ -114,7 +120,8 @@ form {
   font-size: 25px;
 }
 .card-body {
-  padding: 40px;
+  margin-right: 20px;
+  margin-left: 20x;
 }
 .no-gutters {
   margin-right: 50px;
