@@ -9,7 +9,8 @@ var firebaseConfig = {
   appId: "1:810458093542:web:22e37d66c4fc5fc9afe827"
 };
 
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
+
 var database = firebase.database();
 
 ///// ADD RECORDS TO THE FIREBASE DATABASE //////
