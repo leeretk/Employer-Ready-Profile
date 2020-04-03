@@ -39,8 +39,6 @@ header {
   background-color: #004d40;
   color: white;
   font-size: 35px;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 50px;
   border-bottom: coral;
 }
@@ -99,6 +97,7 @@ p {
   color: white;
   font-size:20px;
   background-color: coral;
+  text-align: center;
 }
 footer {
   background-color: #004d40;
